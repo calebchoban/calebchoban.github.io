@@ -12,3 +12,43 @@
     margin: 1rem 0;
   }
 }
+
+
+//darken the menu drawer icon, sets the color of the three dash icon at the top of the page
+.icon-menu:before {
+    color: rgb(150,150,150);
+}
+
+
+//sidebar logo size
+.sidebar-about .avatar {
+    width: 15rem;
+    height: 15rem;
+}
+
+// main text font size, this is the main text on the page and the descriptor on the sidebar
+p {
+    font-size: 1.07rem;
+}
+
+//lead text font size, this is the enlarged text font size (currently only used at the very end of the page)
+p.lead {
+    font-size: 1.25rem;
+}
+
+//homepage header font size, this is the headers for each section
+.homeheader {
+    font-size: 2rem;
+}
+
+// sidebar menu font size, this is all the text on the sidebar besides the little descriptor
+.sidebar-nav-item {
+    font-size: 1.5rem;
+}
+
+// reduce top margin and weight of headings
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-top: 0; 
+    font-weight: 600;
+}
+
