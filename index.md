@@ -71,8 +71,9 @@ For a cool animated video explaining dust check out the video below featuring Pr
 <td style="width:50%;background:transparent;border:none;" >
 <img width="500" height="600" src="./assets/img/dust_no_dust_galaxy.jpg"></td>
 <td style="width:50%;background:transparent;border:none;">
-<iframe width="620" height="387" src="http://www.youtube.com/embed/8bRy5VDJsTI" frameborder="0" allowfullscreen=""></iframe></td>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8bRy5VDJsTI" frameborder="0" allow="encrypted-media;" allowfullscreen></iframe></td>
 </tr></table>
+
 
 
 
