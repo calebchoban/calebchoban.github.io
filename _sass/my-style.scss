@@ -28,7 +28,12 @@
 
 // main text font size, this is the main text on the page and the descriptor on the sidebar
 p {
-    font-size: 1.07rem;
+    font-size: 1.1rem;
+}
+
+// list text font size, this is set to be the same size as the main text font
+ol, li {
+    font-size: 1.1rem;
 }
 
 //lead text font size, this is the enlarged text font size (currently only used at the very end of the page)
@@ -38,7 +43,7 @@ p.lead {
 
 //homepage header font size, this is the headers for each section
 .homeheader {
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 // sidebar menu font size, this is all the text on the sidebar besides the little descriptor
@@ -50,5 +55,10 @@ p.lead {
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     margin-top: 0; 
     font-weight: 600;
+}
+
+// Increase subheader font size
+h2, .h2 {
+    font-size: 2rem;
 }
 

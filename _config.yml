@@ -41,7 +41,7 @@ logo:                  /assets/img/portrait.jpg
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                caleb Choban
+  name:                Caleb Choban
   email:               <calebchoban@gmail.com>
   # # Used by `jekyll-seo-tag`:
   twitter:             cchoban
@@ -66,8 +66,8 @@ legal:
     url:               /LICENSE/
   - title:             NOTICE
     url:               /NOTICE/
-  - title:             CHANGELOG
-    url:               /CHANGELOG/
+  # - title:             CHANGELOG
+  #   url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             © 2022 Caleb Choban. All rights reserved.
