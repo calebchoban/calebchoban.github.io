@@ -117,7 +117,7 @@ Description -->
 ---
 <h2 class="h1" style="color: {{site.theme_color}}" id="publications">Publications </h2>
 
-A full list of my publications can be found on ADS [here](https://ui.adsabs.harvard.edu/search/p_=0&q=author%3A%22choban%2C%20caleb%22&sort=date%20desc%2C%20bibcode%20desc).
+A full list of my publications can be found on ADS [here](https://ui.adsabs.harvard.edu/public-libraries/-Gcrfa83Qq2xs8ndJylF0A).
 
 
 <!--   
