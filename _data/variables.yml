@@ -13,6 +13,7 @@
 
   content_width: 42 #rem
   content_width_2: 48 #rem
+  # This sets the width for the main content page
   content_width_5: 54 #rem
 
   sidebar_width: 21 #rem
