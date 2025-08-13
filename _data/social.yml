@@ -261,3 +261,12 @@ discord:
 mastodon:
   name: Mastodon
   icon: icon-mastodon
+orcid:
+  name: ORCID
+  icon: icon-orcid
+  prepend: "https://orcid.org/"
+bluesky:
+  name: Bluesky
+  icon: icon-bluesky
+  prepend: "https://bsky.app/profile/"
+  append: ".bsky.social"
