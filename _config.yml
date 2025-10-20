@@ -54,6 +54,8 @@ menu:
     url:               /research/
   - title:             Projects
     url:               /projects/
+  - title:             Publications
+    url:               https://ui.adsabs.harvard.edu/public-libraries/-Gcrfa83Qq2xs8ndJylF0A
   - title:             CV
     url:               /assets/files/cchoban_CV.pdf
 
@@ -71,7 +73,7 @@ legal:
 copyright:             © 2025 Caleb Choban. All rights reserved.
 
 # Format of the permalinks
-permalink:             /:categories/:year-:month-:day-:title/
+permalink:             /:categories/:title/
 
 # Pagination configuration (used by the `blog` layout)
 paginate:              10
@@ -227,7 +229,7 @@ hydejack:
   # When set to `true`, will not extend the content in the "third column" on large screens.
   # Instead, all content will remains within the center column.
   # Note that this will not affect the Table of Contents, use `no_toc` instead.
-  no_third_column:     false
+  no_third_column:     true
 
   # Set to `true` if you don't like oversized headlines on large screens.
   no_large_headings:   false
@@ -241,7 +243,7 @@ hydejack:
   no_theme_color:      false
 
   # Disable the breadcrumbs above the title
-  no_breadcrumbs:      false
+  no_breadcrumbs:      true
 
   # Set to `true` when building with the `--lsi` option.
   # The net effect is to use the Jekyll-provided `site.related_posts` variable.

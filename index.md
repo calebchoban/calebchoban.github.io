@@ -11,11 +11,12 @@ cover: true
 
 
 I'm Dr. Caleb Choban, an inaugural Sullivan Prize Fellow in [Astronomy at IU Bloomington](https://astro.indiana.edu/index.html). My research utilizes simulations of galaxies to understand interstellar dust grains, numerous small particles (<1 μm) residing in the interstellar medium. These grains absorb starlight, indirectly make stars, and grow into exoplanets to name just a few of the amazing things they do.
+I'm particularly interested in understanding how dust grains evolve in galaxies and molecular clouds, and how this influences observations we make with telescopes such as the Hubble and James Webb  Space Telescopes and the Atacama Large Millimeter Array.
 
 
 ![Full-width image](./assets/img/main/FIRE_STARFORGE_STAR_dust.png){:.lead width="800" height="100" loading="lazy"}
 
-Dust plays a role in the formation of galaxies, stars, and exoplanets
+Dust plays a role in the formation of galaxies, stars, and exoplanets! This image shows the vast physical scales dust plays a pivotal role in. Note the galaxy and molecular cloud shown are simulations from the [FIRE](https://fire.northwestern.edu) and [STARFORGE](https://starforge.space) simulations. The dark spiral arms in the galaxy and brownish filaments in the molecular cloud are full of dust which absorbs visible light.
 {:.figcaption}
 
 
@@ -28,5 +29,5 @@ I received a Ph.D. in Physics at UC San Diego in 2023, working with [Prof. Duša
 
 Outside of research, I enjoy camping and hiking in national/state parks, rock climbing (only indoors so far), cycling and walking around the beautiful California coastline and Indiana forests and playing a good board game.
 
-![arcadoa](./assets/img/main/arcadia.png){:width="400" height="398" loading="lazy"}
+![arcadia](./assets/img/main/arcadia.png){:width="400" height="398" loading="lazy"}
 ![shenandoah](./assets/img/main/shenandoah.jpg){:width="400" height="398" loading="lazy"}
