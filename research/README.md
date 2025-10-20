@@ -8,21 +8,34 @@ sitemap: false
 permalink: /research/
 ---
 
-Here I give an overview of my research.
+0. this unordered seed list will be replaced by toc as unordered list
+{:toc}
 
+Here you can find general overviews of dust, different aspects of my research, and informative diagrams.
 
-## Getting started
-* [Install]{:.heading.flip-title} --- How to install and run Hydejack.
-* [Upgrade]{:.heading.flip-title} --- You can skip this if you haven't used Hydejack before.
-* [Config]{:.heading.flip-title} --- Once Jekyll is running you can start editing your config file.
+# The What, Why, and How of Dust
+* [What is dust?]{:.heading.flip-title} --- Is it similar to dust bunnies?
+* [Why is it important?]{:.heading.flip-title} --- Hint, both theorists and observers should care.
+* [How do we observe dust?]{:.heading.flip-title} --- The range of wavelengths might surprise you.
 {:.related-posts.faded}
 
-## Using Hydejack
-* [Basics]{:.heading.flip-title} --- How to add different types of content.
-* [Writing]{:.heading.flip-title} --- Producing markdown content for Hydejack.
-* [Scripts]{:.heading.flip-title} --- How to include 3rd party scripts on your site.
-* [Build]{:.heading.flip-title} --- How to build the static files for deployment.
-* [Deploy]{:.heading.flip-title} --- 🆕 How to deploy to a variety of popular providers.
-* [Advanced]{:.heading.flip-title} --- Guides for more advanced tasks.
+
+# Modeling Dust in Galaxy Simulations
+
+* [The dust life cycle]{:.heading.flip-title} --- Dust is forged and survives.
+* [Cosmological zoom-in simulations]{:.heading.flip-title} --- State-of-the-art galaxy simulations.
 {:.related-posts.faded}
 
+# Direct Comparisons to Observations
+
+* [Dust obscures and emits]{:.heading.flip-title} --- Dust is forged and survives.
+
+
+
+[What is dust?]: what_dust.md
+[Why is it important?]: why_dust.md
+[How do we observe dust?]: how_dust.md
+[What is dust?]: what_dust.md
+[Cosmological zoom-in simulations]: simulations.md
+[The dust life cycle]: lifecycle.md
+[Dust obscures and emits]: dust_obs.md
