@@ -20,16 +20,15 @@
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Starter Kit
+title:                 Caleb Choban
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Hydejack is a boutique Jekyll theme for hackers, nerds, and academics,
-  with a focus on personal sites that are meant to impress.
+  Personal website of Caleb Choban - Postdoctoral Fellow in Astronomy at IU Bloomington.
 
 # A shorter description for the sidebar.
-tagline:               Change `tagline` in `_config.yml`
+tagline:               Computational Astrophysicists <br> Interstellar Dust Nerd <br> IU Bloomington
 
 # A list of keywords for your blog
 keywords:              []
@@ -37,24 +36,28 @@ keywords:              []
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/img/logo.png
+logo:                  /assets/img/portrait.jpg
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
+  name:                Caleb Choban
+  email:               <calebchoban@gmail.com>
   # # Used by `jekyll-seo-tag`:
-  # twitter:             <username>
+  twitter:             cchoban
 
 # Add links to the sidebar.
 menu:
-  - title:             Example
-    url:               /example/
-  - title:             Documentation
-    url:               /docs/
   - title:             About
-    url:               /about/
+    url:               /#about
+  - title:             Research
+    url:               /#research
+  - title:             Publications
+    url:               /#publications
+  - title:             Contact
+    url:               /#contact
+  - title:             CV
+    url:               /assets/files/cchoban_CV.pdf
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -63,11 +66,9 @@ legal:
     url:               /LICENSE/
   - title:             NOTICE
     url:               /NOTICE/
-  - title:             CHANGELOG
-    url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2024. All rights reserved.
+copyright:             © 2023 Caleb Choban. All rights reserved.
 
 # Format of the permalinks
 permalink:             /:categories/:year-:month-:day-:title/
@@ -79,6 +80,9 @@ paginate_path:         /:num/
 
 # Theme
 # ---------------------------------------------------------------------------------------
+
+#theme: jekyll-theme-hydejack
+remote_theme: hydecorp/hydejack@v9
 
 # This will use the gem `jekyll-theme-hydejack`, as defined in the sibling `Gemfile`.
 theme: jekyll-theme-hydejack
@@ -92,13 +96,13 @@ theme: jekyll-theme-hydejack
 # ----------------------------------------------------------------------------------------
  
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/sidebar-bg.jpg
-accent_color:          rgb(79,177,186)
+accent_image:          /assets/img/sidebar_m12f.jpg
+accent_color:          rgb(199, 26, 26) #rgb(79,177,186)
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
 # Defaults to `accent_color`.
-theme_color:           rgb(25,55,71)
+theme_color:           rgb(199, 26, 26) #rgb(25,55,71)
 
 # IMPORTANT:
 # As of Hydejack 9.2, Google Fonts are turned off by default due to a stronger focus on privacy.
@@ -129,7 +133,7 @@ defaults:
       path:            hyde/
     values:
       accent_color:    rgb(38,139,210)
-      theme_color:     rgb(32,32,32)
+      theme_color:     rgb(199, 26, 26) #rgb(32,32,32)
       accent_image:
         background:    rgb(32,32,32)
         overlay:       false
@@ -189,7 +193,7 @@ hydejack:
   project_addons:      [about, newsletter, other, comments]
 
   # Set to `true` if you don't want to show an icon indicating external links
-  no_mark_external:    false
+  no_mark_external:    true
 
   # Set to `true` if third party plugins fail to work with dynamically loaded pages
   no_push_state:       false
@@ -220,12 +224,12 @@ hydejack:
   no_break_layout:     true
 
   # Set to `true` to disable the dynamic Table of Contents on large screens.
-  no_toc:              false
+  no_toc:              true
 
   # When set to `true`, will not extend the content in the "third column" on large screens.
   # Instead, all content will remains within the center column.
   # Note that this will not affect the Table of Contents, use `no_toc` instead.
-  no_third_column:     false
+  no_third_column:     true
 
   # Set to `true` if you don't like oversized headlines on large screens.
   no_large_headings:   false
