@@ -20,15 +20,16 @@
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Caleb Choban
+title:                 Dr. Caleb Choban
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
   Personal website of Caleb Choban - Postdoctoral Fellow in Astronomy at IU Bloomington.
+  Personal website of Caleb Choban - Postdoctoral Fellow in Astronomy at IU Bloomington.
 
 # A shorter description for the sidebar.
-tagline:               Computational Astrophysicists <br> Interstellar Dust Nerd <br> IU Bloomington
+tagline:               Computational Astrophysicist <br> Interstellar Dust Nerd <br> IU Bloomington
 
 # A list of keywords for your blog
 keywords:              []
@@ -41,21 +42,21 @@ logo:                  /assets/img/portrait.jpg
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                Caleb Choban
-  email:               <calebchoban@gmail.com>
+  name:                Dr. Caleb Choban
+  email:               cchoban@iu.edu
   # # Used by `jekyll-seo-tag`:
   twitter:             cchoban
 
 # Add links to the sidebar.
 menu:
-  - title:             About
-    url:               /#about
+  - title:             Home
+    url:               /
   - title:             Research
-    url:               /#research
+    url:               /research/
+  - title:             Projects
+    url:               /projects/
   - title:             Publications
-    url:               /#publications
-  - title:             Contact
-    url:               /#contact
+    url:               https://ui.adsabs.harvard.edu/public-libraries/-Gcrfa83Qq2xs8ndJylF0A
   - title:             CV
     url:               /assets/files/cchoban_CV.pdf
 
@@ -66,16 +67,18 @@ legal:
     url:               /LICENSE/
   - title:             NOTICE
     url:               /NOTICE/
+  # - title:             CHANGELOG
+  #   url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2023 Caleb Choban. All rights reserved.
+copyright:             © 2025 Caleb Choban. All rights reserved.
 
 # Format of the permalinks
-permalink:             /:categories/:year-:month-:day-:title/
+permalink:             /:categories/:title/
 
 # Pagination configuration (used by the `blog` layout)
 paginate:              10
-paginate_path:         /:num/
+paginate_path:         /projects/:num/
 
 
 # Theme
@@ -94,12 +97,12 @@ remote_theme: hydecorp/hydejack@v9.2.1
  
 # Sidebar image and theme color of the site.
 accent_image:          /assets/img/sidebar_m12f.jpg
-accent_color:          rgb(199, 26, 26) #rgb(79,177,186)
+accent_color:          rgb(199, 26, 26)
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
 # Defaults to `accent_color`.
-theme_color:           rgb(199, 26, 26) #rgb(25,55,71)
+theme_color:           rgb(199, 26, 26)
 
 # IMPORTANT:
 # As of Hydejack 9.2, Google Fonts are turned off by default due to a stronger focus on privacy.
@@ -184,7 +187,8 @@ kramdown:
 
 hydejack:
   # Configure the order of complementary content on blog posts
-  post_addons:         [about, newsletter, related, random, comments]
+  # Dont need any of these
+  # post_addons:         [about, newsletter, related, random, comments]
 
   # Configure the order of complementary content on project pages
   project_addons:      [about, newsletter, other, comments]
@@ -227,6 +231,7 @@ hydejack:
   # Instead, all content will remains within the center column.
   # Note that this will not affect the Table of Contents, use `no_toc` instead.
   no_third_column:     true
+  no_third_column:     true
 
   # Set to `true` if you don't like oversized headlines on large screens.
   no_large_headings:   false
@@ -240,7 +245,7 @@ hydejack:
   no_theme_color:      false
 
   # Disable the breadcrumbs above the title
-  no_breadcrumbs:      false
+  no_breadcrumbs:      true
 
   # Set to `true` when building with the `--lsi` option.
   # The net effect is to use the Jekyll-provided `site.related_posts` variable.
@@ -257,10 +262,10 @@ hydejack:
   # Buyers of the PRO version can opt to hide all dates from the theme.
   # Frequent consumers of online content will know that nothing devalues a post like
   # seeing an old date. 
-  hide_dates:          false
+  hide_dates:          true
 
   # Similarly, showing last modified date can devalue a post if it is too far in the past.
-  hide_last_modified:  false
+  hide_last_modified:  true
 
   # Note that dark mode only works in the PRO version of Hydejack.
   dark_mode:
@@ -362,10 +367,10 @@ plugins:
 
 # Used on index and about sites
 # social:
-#   name:                <firstname> <lastname>
+#   name:                Caleb Choban
 #   links:
-#     - https://twitter.com/<username>
-#     - https://github.com/<username>
+#     - https://bsky.app/profile/calebchoban.bsky.social
+#     - https://github.com/calebchoban
 
 
 # Plugin Configs

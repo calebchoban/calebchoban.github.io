@@ -14,6 +14,8 @@
 }
 
 
+// Below are stylistic changes I have made to the theme
+
 //darken the menu drawer icon, sets the color of the three dash icon at the top of the page
 .icon-menu:before {
     color: rgb(150,150,150);
@@ -31,11 +33,6 @@ p {
     font-size: 1.2rem;
 }
 
-// list text font size, this is set to be the same size as the main text font
-ol, li {
-    font-size: 1.2rem;
-}
-
 //lead text font size, this is the enlarged text font size (currently only used at the very end of the page)
 p.lead {
     font-size: 1.25rem;
@@ -43,12 +40,12 @@ p.lead {
 
 //homepage header font size, this is the headers for each section
 .homeheader {
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 // sidebar menu font size, this is all the text on the sidebar besides the little descriptor
 .sidebar-nav-item {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
 }
 
 // reduce top margin and weight of headings
@@ -56,9 +53,3 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     margin-top: 0; 
     font-weight: 600;
 }
-
-// Increase subheader font size
-h2, .h2 {
-    font-size: 2rem;
-}
-
