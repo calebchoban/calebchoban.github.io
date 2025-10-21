@@ -26,6 +26,7 @@ title:                 Dr. Caleb Choban
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
   Personal website of Caleb Choban - Postdoctoral Fellow in Astronomy at IU Bloomington.
+  Personal website of Caleb Choban - Postdoctoral Fellow in Astronomy at IU Bloomington.
 
 # A shorter description for the sidebar.
 tagline:               Computational Astrophysicist <br> Interstellar Dust Nerd <br> IU Bloomington
@@ -44,7 +45,7 @@ author:
   name:                Dr. Caleb Choban
   email:               cchoban@iu.edu
   # # Used by `jekyll-seo-tag`:
-  # twitter:             <username>
+  twitter:             cchoban
 
 # Add links to the sidebar.
 menu:
@@ -84,12 +85,12 @@ paginate_path:         /projects/:num/
 # ---------------------------------------------------------------------------------------
 
 # This will use the gem `jekyll-theme-hydejack`, as defined in the sibling `Gemfile`.
-theme: jekyll-theme-hydejack
+# theme: jekyll-theme-hydejack
 
 # You can uncomment `theme` above and replace it with `remote_theme` here iff you are using the 
 # `jekyll-remote-theme` plugin (which is the case when using the legacy GitHub Pages pipeline).
 # This will fetch the `v9` branch of the public Hydejack repository on GitHub.
-# remote_theme: hydecorp/hydejack@v9
+remote_theme: hydecorp/hydejack@v9.2.1
 
 # Customizaton
 # ----------------------------------------------------------------------------------------
@@ -132,7 +133,7 @@ defaults:
       path:            hyde/
     values:
       accent_color:    rgb(38,139,210)
-      theme_color:     rgb(32,32,32)
+      theme_color:     rgb(199, 26, 26) #rgb(32,32,32)
       accent_image:
         background:    rgb(32,32,32)
         overlay:       false
@@ -193,7 +194,7 @@ hydejack:
   project_addons:      [about, newsletter, other, comments]
 
   # Set to `true` if you don't want to show an icon indicating external links
-  no_mark_external:    false
+  no_mark_external:    true
 
   # Set to `true` if third party plugins fail to work with dynamically loaded pages
   no_push_state:       false
@@ -224,11 +225,12 @@ hydejack:
   no_break_layout:     true
 
   # Set to `true` to disable the dynamic Table of Contents on large screens.
-  no_toc:              false
+  no_toc:              true
 
   # When set to `true`, will not extend the content in the "third column" on large screens.
   # Instead, all content will remains within the center column.
   # Note that this will not affect the Table of Contents, use `no_toc` instead.
+  no_third_column:     true
   no_third_column:     true
 
   # Set to `true` if you don't like oversized headlines on large screens.
